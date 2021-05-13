@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45753" started-at="2021-05-12T06:01:12Z" finished-at="2021-05-12T06:01:57Z">
+    <groups>
+      <group name="smoke">
+        <method signature="TestClass.getHospitalNames(java.lang.String)[pri:1, instance:RunTest.TestClass@610694f1]" name="getHospitalNames" class="RunTest.TestClass"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Test" duration-ms="45753" started-at="2021-05-12T06:01:12Z" finished-at="2021-05-12T06:01:57Z">
+      <class name="RunTest.TestClass">
+        <test-method status="PASS" signature="getHospitalNames(java.lang.String)[pri:1, instance:RunTest.TestClass@610694f1]" name="getHospitalNames" duration-ms="25754" started-at="2021-05-12T11:31:12Z" finished-at="2021-05-12T11:31:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHospitalNames -->
+        <test-method status="PASS" signature="Diagnosticpage()[pri:2, instance:RunTest.TestClass@610694f1]" name="Diagnosticpage" duration-ms="5177" started-at="2021-05-12T11:31:37Z" finished-at="2021-05-12T11:31:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Diagnosticpage -->
+        <test-method status="PASS" signature="CopWelleness()[pri:3, instance:RunTest.TestClass@610694f1]" name="CopWelleness" duration-ms="14427" started-at="2021-05-12T11:31:43Z" finished-at="2021-05-12T11:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CopWelleness -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:RunTest.TestClass@610694f1]" name="endReport" is-config="true" duration-ms="371" started-at="2021-05-12T11:31:57Z" finished-at="2021-05-12T11:31:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- RunTest.TestClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

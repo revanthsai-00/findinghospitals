@@ -1,0 +1,31 @@
+#Global Properties
+
+baseUrl=https://www.practo.com/
+
+#Homepage Locators
+
+searchLocation_xpath=//input[@placeholder='Search location']
+clearSearchLocationButton_xpath=//i[@class='icon-ic_cross_solid']
+bangaloreLocationButton_xpath=//*[@id="c-omni-container"]/div/div[1]/div[2]/div[2]/div[1]/span[1]/div
+searchBox_xpath=//input[@placeholder='Search doctors, clinics, hospitals, etc.']
+hospitalButton_xpath=//*[@id="c-omni-container"]/div/div[2]/div[2]/div[1]/div/span[1]/div
+
+#SearchResults Page Locators
+open24X7CB_xpath=//span[text()='Open 24X7']
+allFilters_xpath=//span[text()='All Filters']
+hasParkingCB_xpath=//span[text()='Has Parking'] 
+hospitalNames_xpath=//h2[@data-qa-id='hospital_name']
+ratings_xpath=//span[@class='common__star-rating__value']
+
+#CaptureAlert Locators
+Provider_xpath=//*[@id='root']/div/div/div[1]/div[1]/div[2]/div/div[3]/div[1]/span[1]
+co_partialLinkText=Corporate
+name_id=name
+org_id=organization_name
+offemail_id=official_email_id
+offphn_id=official_phone_no
+submit_id=button-style
+
+#Topcities Page Locators
+diagnostic_xpath=//div[text()='Diagnostics']
+city_xpath=//ul[@class='u-br-rule u-marginb--std-half u-pointer u-padb--dbl o-flex o-flex__justify--between']
